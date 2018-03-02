@@ -8,9 +8,6 @@ echo "Boo-yah! Now let's get Drupal set up."
 mkdir ~/Desktop/dev-drupal
 echo "Downloading a stable release of Drupal. . ."
 curl -L http://ftp.drupal.org/files/projects/drupal-7.57.tar.gz | tar -xz - -C ~/Desktop/dev-drupal --strip-components=1
-echo "Got it! Now it just needs to be configured. . ."
-# Keep our credentials saved and updated on the office github page: 
-curl -o ~/Desktop/dev-drupal/wp-config.php https://raw.githubusercontent.com/fullstackman/studentaffairs-wp-theme/master/page.php
 echo "Let's launch drupal and see if it works. . ."
 cd ~/Desktop/dev-drupal
 # The output of these ampersands are kinda obtrusive
