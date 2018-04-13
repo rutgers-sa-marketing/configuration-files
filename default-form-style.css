@@ -1,0 +1,21 @@
+h1{
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#NextButton {
+    color: #fff;
+    background-color: #B8183B;
+    padding: 8px 15px;
+    border: none;
+}
+
+.Skin #Header {
+	background: left bottom no-repeat #F7F7F7;
+	border: 1px solid #fff;
+	height:  auto !important;
+	color: #333;
+	padding-top: 15px;
+	font-size: 12pt;
+}
